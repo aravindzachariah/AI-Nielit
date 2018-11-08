@@ -1,0 +1,43 @@
+Aravind is my name
+First Line
+Second Line
+This was inserted in between
+Third Line
+Third Line
+Aravind is my name
+First Line
+
+Vi - Exercise 
+1.Open a new file called myvifile using the command: vi myvifile.
+2.Press the lower case letter i to begin inserting text at the first line and check for 
+	any indication on the screen that you are in text insertion mode.
+3.Type your name.
+4.Press the Esc key to leave Insert Entry mode and return to Command mode and check for 
+	any indication on the screen that you are back in Command mode.
+5.Type a colon to go from Command mode to Last-line mode and check the bottom left corner of the screen for a a colon (:). 
+6.Type a lower case w (write   to save your new file), followed by a lower case q to quit
+7.Type ls,    and check for the file you created myvifile.
+8.Type cat myvifile 
+9.Open myvifile using the command  vi myvifile.
+10.Position the cursor at the end of your name and press the lower case letter a to append to the line you typed earlier. 
+11.Type some text, and the press Enter for a hard return and then type some more text. 
+12.Enter about three lines of text this way. 
+13.Press the Esc key to leave Insert mode and return to Command mode.
+14.Type a colon :  to go from Command mode to Last-line mode. 
+15.Press the Esc key to leave lastline mode and return to Command mode.
+16.Practise positioning your cursor h,j,k,l,b,e,w,0,$,G  
+17.Try using arrow keys to navigate in command mode.
+18.Switch to edit mode and try to use arrow keys to navigate.
+19.Type a lower case o to open a new line below the line your cursor is on and enter some new text. 
+20.Press the Esc key again to leave Insert Entry mode and return to Command mode.
+21.Type a colon (:) to go to Last-line mode then save and quit this file when you are finished.
+22.Type cat myvifile and check for the changes you saved.
+23.Open the above file using vi.
+24.try y and d operators
+25.Quit vi without saving the changes
+
+============================================================================
+
+Now practice vi commands by creating requirements of your  own choice.
+============================================================================
+
