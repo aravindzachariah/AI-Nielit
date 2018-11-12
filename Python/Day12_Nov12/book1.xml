@@ -1,0 +1,2 @@
+<?xmlversion="1.0"?>
+<itbooks><bookcategory="python"><titlelang="en">ThinkPython</title><author>ABDowney</author><year>2015</year><price>300</price></book><bookcategory="hadoop"><titlelang="en">DefGuide</title><author>TomWhite</author><year>2015</year><price>900</price></book><bookcategory="CPP"><titlelang="en">Letuscpp</title><author>YKenetkar</author><year>2010</year><price>349</price></book><bookcategory="unix"><titlelang="en">DesignofUnixOS</title><author>MJBach</author><year>2003</year><price>839</price></book></itbooks>
