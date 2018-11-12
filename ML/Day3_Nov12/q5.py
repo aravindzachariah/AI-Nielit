@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 data=pd.read_csv("city.csv")
-#print data
+print data.head()
 #print data.shape()
 data=data.as_matrix()
 X=data[:,1:5]
