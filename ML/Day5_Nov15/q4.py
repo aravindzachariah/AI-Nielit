@@ -4,14 +4,15 @@ from  sklearn import metrics
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import re
 from sklearn import preprocessing
 le=preprocessing.LabelEncoder()
 data=pd.read_csv("titanic.csv")
-print data.columns
 for col in data.columns.values:
 	if data[col].dtypes=='object':
 		le.fit(data[col].values)
        		data[col]=le.transform(data[col])
+data=data.dropna(axis=0, how='any')
 print data
 data=data.as_matrix()
 X=data[:,[0,2,4,5,6,7,8,9,10,11]]
