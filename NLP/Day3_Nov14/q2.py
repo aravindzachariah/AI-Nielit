@@ -8,18 +8,17 @@ for i in f:
 	cls=s[-2]
 	f=open(i,"r")
 	f=f.read().strip()
-	tup=f,s
+	tup=f,cls
 	trainData.append(tup)
 print "Data Importing Completed"
 classifier=NBC(trainData)
 print "Training Complete"
-dir=sys.argv[1]
-f=open(i,"r")
-f1=f.read().strip()
+f=open('Test',"r")
+f1=f.read()
 testData=[]
 testData.append(f1)
 print "Test Data\n-------------------------------------"
-print type(testData)
+print f1
 print "-------------------------------------"
 c=classifier.classify(testData)
 print c
