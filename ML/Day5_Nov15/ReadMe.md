@@ -26,6 +26,9 @@ admission status. Data is available in the file ex3.txt.
 	two different colours for admitted and non admitted students)
 	b)Develop an ML model to predict the admission status of a new set of
 	students.
+##q3.py
+![Screenshot](q3.png)
+
 # Question 4
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
 On April 15, 1912, during her maiden voyage, the Titanic sank after colliding
