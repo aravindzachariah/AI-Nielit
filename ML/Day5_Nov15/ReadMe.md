@@ -9,6 +9,10 @@ A negative value of profit indicates a loss.
 	a) Create a scatterplot between population and profits
 	b) Develop an ML model to predict profit for a given city (by providing
 	population)
+```
+	q1.py
+```
+![Screenshot](q1.png) 	![Screenshot](q1_1.png)
 # Question 2
 Suppose you are selling your house and you want to see what a good market
 price would be. The ex2.txt contains a training set of housing prices in India.
@@ -16,6 +20,9 @@ The first column is the size of the house (in square feet). The second column
 is the number of bedrooms and the third column is the price of the house.
 	a) Use scatter plots to visualize the data
 	b) Develop an ML model to predict the house price using the scaled values.
+```
+	q2.py
+```
 # Question 3
 Suppose that you are the administrator of a university department and you
 want to determine applicants’ chance to get admitted to a course.
@@ -27,7 +34,7 @@ admission status. Data is available in the file ex3.txt.
 	b)Develop an ML model to predict the admission status of a new set of
 	students.
 ```
-q3.py
+	q3.py
 ```
 ![Screenshot](q3.png)
 
