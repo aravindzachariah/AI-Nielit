@@ -52,6 +52,9 @@ people were more likely to survive than others, such as women, children, and
 the upper-class.
 Develop an ML model to predict the survival of passengers.
 (Use titanic.csv file)
+```
+q4.py
+```
 # Question 5
 Predicting rock facies (classes of rocks) from well log data
 Well log data is recorded either during drilling operations or after the drilling via
@@ -83,3 +86,6 @@ variables and a rock facies (class).
 	Dolomite (D)
 	Packstone-grainstone (limestone) (PS)
 	Phylloid-algal bafflestone (limestone) (BS)
+```
+q5.py
+```
