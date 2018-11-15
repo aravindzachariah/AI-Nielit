@@ -23,6 +23,7 @@ is the number of bedrooms and the third column is the price of the house.
 ```
 	q2.py
 ```
+![Screenshot](q2.png) 
 # Question 3
 Suppose that you are the administrator of a university department and you
 want to determine applicants’ chance to get admitted to a course.

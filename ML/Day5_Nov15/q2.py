@@ -13,6 +13,10 @@ Hprice=f[:,[2]]
 fig=plt.figure()
 ax=plt.axes(projection='3d')
 ax.scatter3D(Hsize,Hno,Hprice)
+ax.set_title('House Size and number of rooms Vs Cost')
+ax.set_xlabel('House Size')
+ax.set_ylabel('House Room Number')
+ax.set_zlabel('\nCost')
 plt.show()
 lr=LinearRegression()
 X=f[:,[0,1]]
