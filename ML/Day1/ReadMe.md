@@ -1,6 +1,6 @@
-1. Title: Lung Cancer Data
+# Title: Lung Cancer Data
 
-2. Source Information:
+## Source Information:
 	- Data was published in : 
 	  Hong, Z.Q. and Yang, J.Y. "Optimal Discriminant Plane for a Small
 	  Number of Samples and Design Method of Classifier on the Plane",
@@ -8,7 +8,7 @@
 	- Donor: Stefan Aeberhard, stefan@coral.cs.jcu.edu.au
 	- Date : May, 1992
 
-3. Past Usage:
+## Past Usage:
 	- Hong, Z.Q. and Yang, J.Y. "Optimal Discriminant Plane for a Small
           Number of Samples and Design Method of Classifier on the Plane",
           Pattern Recognition, Vol. 24, No. 4, pp. 317-324, 1991.
@@ -19,7 +19,7 @@
 	  Bias in High Dimensional Settings", submitted to
 	  pattern Recognition.
 
-4. Relevant Information:
+## Relevant Information:
 	- This data was used by Hong and Young to illustrate the 
 	  power of the optimal discriminant plane even in ill-posed
 	  settings. Applying the KNN method in the resulting plane	
@@ -39,20 +39,20 @@
           value has been changed to ? (unknown). (*)
     
 	  
-5. Number of Instances: 32
+### Number of Instances: 32
 
-6. Number of Attributes: 57 (1 class attribute, 56 predictive)
+### Number of Attributes: 57 (1 class attribute, 56 predictive)
 
-7. Attribute Information:
+### Attribute Information:
 
 	attribute 1 is the class label.
 	
 	- All predictive attributes are nominal, taking on integer 
 	  values 0-3
 
-8. Missing Attribute Values: Attributes 5 and 39 (*)
+### Missing Attribute Values: Attributes 5 and 39 (*)
 
-9. Class Distribution:
+### Class Distribution:
 	- 3 classes, 
 		1.)	9 observations
 		2.)	13     "
