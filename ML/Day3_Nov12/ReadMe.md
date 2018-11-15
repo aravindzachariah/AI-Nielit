@@ -1,10 +1,10 @@
-#Question 1
+# Question 1
 Develop an ML model for predicting sales for the Advertising data
 (Advertising.csv file) using Linear Regression.
 ```
 q1.py
 ```
-#Question 2
+# Question 2
 Develop an ML model to predict the home price from interest rate.(loan.csv file)
 ```
 q2.py
