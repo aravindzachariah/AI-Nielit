@@ -26,7 +26,9 @@ admission status. Data is available in the file ex3.txt.
 	two different colours for admitted and non admitted students)
 	b)Develop an ML model to predict the admission status of a new set of
 	students.
-## q3.py
+```
+q3.py
+```
 ![Screenshot](q3.png)
 
 # Question 4
