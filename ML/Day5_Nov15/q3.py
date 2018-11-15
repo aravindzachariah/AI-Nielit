@@ -19,7 +19,7 @@ print np.sqrt(m.mean_squared_error(y_test,p))
 yp=lr.predict(X_test)
 fig=plt.figure()
 ax=plt.axes(projection='3d')
-ax.scatter3D(X_test[:,0],X_test[:,1],y_test,cmap='viridis')
+ax.scatter3D(X_test[:,0],X_test[:,1],yp,c=yp,cmap='RdYlBu')
 plt.show()
 
 
