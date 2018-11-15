@@ -9,7 +9,7 @@ while data:
 	tuple=content,category
 	trainData.append(tuple)
 	data=f.readline().strip()
-classifier=NaiveBayesClassifier(trainData)
+classifier=NaiveBayesClassifier(trainData) 
 print "Training Done"
 f.close()
 f1=open('TestSet.txt','r')
