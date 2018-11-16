@@ -1,4 +1,4 @@
-#Question1
+# Question1
 Develop an ML model for predicting the digits in the digits image dataset in
 sklearn using SVM . Plot some sample input images together with its class
 information. Also plot some predicted outputs together with its actual
