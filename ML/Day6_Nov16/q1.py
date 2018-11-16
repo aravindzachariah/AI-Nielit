@@ -8,9 +8,9 @@ X=data.images
 y=data.target
 ilabels=list(zip(X,y))
 for index,(image,label) in enumerate(ilabels[:8]):
-	plt.subplot(2,4,index+1)
+	plt.subplot(1,8,index+1)
 	plt.axis('off')
-	plt.imshow(image,cmap=plt.cm.gray_r,interpolation='nearest')
+	plt.imshow(image,cmap='inferno',interpolation='nearest')
 	plt.title(label)
 plt.show()
 print(X.shape)
