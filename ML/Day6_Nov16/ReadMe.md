@@ -7,6 +7,7 @@ images.
 images in the dataset. Before fitting the data to the SVC model reshape the
 X data from (n,8,8) to (n, 64) using X.reshape(n,-1) where n is the number of
 images]
+![Screenshot](q1.png) 
 ```
 q1.py
 ```
