@@ -1,3 +1,4 @@
+
 import re
 def isInteger(s):
 	p=re.compile('(?=[0-9])')
@@ -18,7 +19,7 @@ def HasVowel(s):
 		return True
 	return False
 def isHex(s):
-	p=re.compile('(?=\\x)')
+	p=re.compile('.*(?=[\u]).*')
 	r=re.match(p,s)
 	if r:
 		return True
