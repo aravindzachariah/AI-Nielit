@@ -1,4 +1,4 @@
-cd ~/AI-Nielit/
+cd ~/Codes/
 git add .
 git commit -m "Updated"
 git push
