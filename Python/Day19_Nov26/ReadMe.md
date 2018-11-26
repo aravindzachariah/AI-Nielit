@@ -5,9 +5,8 @@ start to end incremented by 1. A suitable shape can be decided by the programmer
 From this array, using conditional logic, create two new arrays , consisting of elements which are divisible by a given number,say dn1, in the first array
 and not divisible by dn1 in the second array.
 
-```
-q1.py
-```
+[a relative link](q1.py)
+
 # Question 2
 Write a python script to solve the following.
 A local shop sells three types of Laptops on Monday to Thursday- hp,sony and dell
