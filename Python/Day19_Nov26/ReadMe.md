@@ -1,4 +1,4 @@
-#1. Write a python script to create and store a 2D array as a file by receiving 
+# 1. Write a python script to create and store a 2D array as a file by receiving 
 		start and end numbers from user. The array should contain elements from 
 		start to end incremented by 1. A suitable shape can be 
 		decided by the programmer.0 can be used to fill columns if required.
@@ -8,7 +8,7 @@
 '''
 q1.py
 '''
-#2. Write a python script to solve the following.
+# 2. Write a python script to solve the following.
 
 		A local shop sells three types of Laptops on Monday to Thursday- hp,sony and dell
 		and the prices are 30000,35000 and 40000 respectively.
@@ -27,7 +27,7 @@ q1.py
 '''
 q2.py
 '''
-#3.Write a python script(using numpy) to solve the following.
+# 3.Write a python script(using numpy) to solve the following.
 
 		A group of people took a trip on a bus at Rs.3.00 per child and Rs.3.20 per adult for 
  		a total of Rs.118.40
