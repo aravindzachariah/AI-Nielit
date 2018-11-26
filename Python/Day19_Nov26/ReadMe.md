@@ -5,7 +5,7 @@ start to end incremented by 1. A suitable shape can be decided by the programmer
 From this array, using conditional logic, create two new arrays , consisting of elements which are divisible by a given number,say dn1, in the first array
 and not divisible by dn1 in the second array.
 
-[a relative link](q1.py)
+[Solution Question 1.py](q1.py)
 
 # Question 2
 Write a python script to solve the following.
@@ -24,9 +24,8 @@ The sales of items are
 using numpy, calculate the sales collection for each day
 (hint : matrix maltiplication)
 
-```
-q2.py
-```
+[Solution Question 2.py](q2.py)
+
 # Question 3
 Write a python script(using numpy) to solve the following.
 A group of people took a trip on a bus at Rs.3.00 per child and Rs.3.20 per adult for 
@@ -36,7 +35,6 @@ a total of Rs.135.20
 Print the number of children and adults.
 (hint : matrix multiplication and inverse to get the effect of division)
 
-```
-q3.py
-```
+[Solution Question 3.py](q3.py)
+
   
