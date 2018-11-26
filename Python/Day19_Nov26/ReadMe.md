@@ -13,6 +13,7 @@ Write a python script to solve the following.
 A local shop sells three types of Laptops on Monday to Thursday- hp,sony and dell
 nd the prices are 30000,35000 and 40000 respectively.
 The sales of items are
+
 			Mon	Tue	wed	Thu
 		
 		hp	1	5	2	3
