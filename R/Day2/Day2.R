@@ -20,7 +20,7 @@ min(V)
 #Question5
 A=sample(0:999,250)
 A
-B=B[which(B>900)]
+B=A[which(A>900)]
 B
 C=sort(B)
 C
