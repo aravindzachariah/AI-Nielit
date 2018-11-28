@@ -30,5 +30,5 @@ while(k in o):
 		print "\nTotal Number of Employees : ",te
 		print "\nTotal Employee Salary : ",data1['esalary'].sum()
 	elif k=='f':
-		np.savetxt('emp.csv',data1,delimiter=",")
+		np.savetxt('emp.csv',data1,fmt="%s,%d,%s,%f,%s")
 	print data1
