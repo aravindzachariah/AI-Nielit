@@ -2,8 +2,10 @@ import numpy as np
 o=list('abcdef')
 k='a'
 dt1=np.dtype([('ename','S20'),('eno','i8'),('edesign','S10'),('esalary','f8'),('ephno','S10')])
+data1=[]
 while(k in o):
-	print "\na)Initialize \nb)Add New record \nc)Delete Record \nd)Display details by name \ne)Display Summary \nf)Save all \ng)Exit \n"
+	print "\n------------ Employee Database -------------"
+	print "a)Initialize \nb)Add New record \nc)Delete Record \nd)Display details by name \ne)Display Summary \nf)Save all \ng)Exit \n"
 	k=raw_input("Enter Option: ")
 	if k=='a':
 		data1=np.loadtxt('emp.csv',delimiter=",",dtype=dt1)
@@ -31,4 +33,6 @@ while(k in o):
 		print "\nTotal Employee Salary : ",data1['esalary'].sum()
 	elif k=='f':
 		np.savetxt('emp.csv',data1,fmt="%s,%d,%s,%f,%s")
-	print data1
+	else:
+		break
+	print "\n",data1
