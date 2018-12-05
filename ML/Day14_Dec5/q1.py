@@ -1,0 +1,14 @@
+from sklearn.datasets import load_iris
+from sklearn.neural_network import MLPClassifier
+from sklearn.metrics import confusion_matrix
+iris = load_iris()
+X=iris.data
+y=iris.target
+mlp=MLPClassifier(activation='relu',hidden_layer_sizes=(100))
+mlp.fit(X,y)
+p=mlp.predict(X)
+print"Activation 'relu': \n",(confusion_matrix(y,p))
+mlp=MLPClassifier(activation='tanh',hidden_layer_sizes=(100))
+mlp.fit(X,y)
+p=mlp.predict(X)
+print"\nActivation 'tanh': \n",(confusion_matrix(y,p))
