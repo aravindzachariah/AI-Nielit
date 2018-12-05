@@ -28,10 +28,8 @@ df1=f(ad,columns=list("abc"),index=list("xyz"))
 print df1,"\n"
 print df1.reindex(list("yzx")),"\n"
 
-#Question 6  Create a Dataframe object of your own choice and do reindexing.
+#Question 6  Create a dataframe object from the above array by making c1,c2,c3,c4 as column indices and r1,r2,r3,r4 as row indices.
 a1=np.array(range(1,17)).reshape(4,4)
-
-#Question 7  Create a dataframe object from the above array by making c1,c2,c3,c4 as column indices and r1,r2,r3,r4 as row indices.
 df2=f(a1,index="r1 r2 r3 r4".split(),columns="c1 c2 c3 c4".split() )
 
 #Question 7.1 Using integer based indexing print the very first element(row 0, column 0) as a scalar,as a series,and as a dataframe.
