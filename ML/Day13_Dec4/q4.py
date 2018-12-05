@@ -6,6 +6,6 @@ for i in range(2):
 sobelx=cv.Sobel(img,cv.CV_8U,1,0,ksize=1)
 sobely=cv.Sobel(img,cv.CV_8U,0,1,ksize=1)
 imgc=np.hstack((img,sobelx,sobely))
-cv.imshow('dst',imgc)
+cv.imshow('Result',imgc)
 cv.waitKey(0)
 
