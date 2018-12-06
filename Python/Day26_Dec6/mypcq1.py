@@ -13,7 +13,7 @@ names=list(["Tom", "Raj","Tony","Shibin","Aravind","Akshey","Varun","Amel","Niza
 desig=list(["Engineer","Scientist","Engineer","Scientist","Officer","Scientsit","Officer","Engineer","Scientist","Officer","Engineer"])
 slry=[100000,60000,30000,70000,50000,20000,60000,70000,50000,60000,70000]
 try:
-    con = db.connect("127.0.0.1","ai","ai","ai")
+    con = db.connect("127.0.0.1","aravind","sql91011","db")
     cur = con.cursor()
     for i in range(10):
         sql = "insert into ai_13_emp values(%s,%s,%s,%s,%s)",(str(i+100),names[i],str(i+2000),desig[i],str(slry[i]))
