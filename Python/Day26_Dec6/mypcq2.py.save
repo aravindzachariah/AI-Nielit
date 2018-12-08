@@ -1,0 +1,23 @@
+"""
+
+create table ai_13_dept(deptno int NOT NULL,dep_name varchar(20) NOT NULL,dept_location varchar(20),PRIMARY KEY (depno));
+"""
+# importing packages
+import MySQLdb as db
+import pandas as pd
+
+con = None
+dept=list(["Manager", "Analyst","Maintainance","Data Scientist","","Akshey","Varun","Amel","Nizam","Roy","Rahul"])
+loc=list(["Engineer","Scientist","Engineer","Scientist","Officer","","Officer","Engineer","Scientist","Officer","Engineer"])
+try:
+    con = db.connect("127.0.0.1","aravind","sql91011","db")
+    cur = con.cursor()
+    for i in range(10):
+        sql = "insert into ai_13_dept values(%s,%s,%s)",(str(i+2000),dept[i],loc[i])
+        cur.execute(*sql)
+    con.commit()
+
+except Exception ,e :
+    print e
+finally:
+    con.close()
