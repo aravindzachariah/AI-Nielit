@@ -6,16 +6,15 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 import pandas as pd
 df=pd.read_csv("sonar.csv",header=None)
-x = df.iloc[:-1]
-y= df.iloc[-1]
-encoder = LabelEncoder()
-encoder.fit(y)
-y=encoder.transform(y)
+x = df.iloc[:,:-1]
+y= df.iloc[:,-1]
+y=pd.get_dummies(y)
+print y
 train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.20)
 model = Sequential()
-model.add(Dense(10, input_shape=(4,), activation='relu', name='fc1'))
+model.add(Dense(10, input_shape=(60,), activation='relu', name='fc1'))
 model.add(Dense(10, activation='relu', name='fc2'))
-model.add(Dense(3, activation='softmax', name='output'))
+model.add(Dense(2, activation='softmax', name='output'))
 optimizer = Adam(lr=0.001)
 model.compile(optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 print('Neural Network Model Summary: ')
