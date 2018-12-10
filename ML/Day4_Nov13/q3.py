@@ -4,7 +4,7 @@ from sklearn.metrics import confusion_matrix,accuracy_score
 import pandas as pd
 import numpy as np
 d=pd.read_csv("s4.txt","\s+")
-d=d.as_matrix()
+d=d.values
 X=np.array(zip(d[:,0],d[:,1]))
 kmeans=KMeans(n_clusters=15)
 kmeans.fit(X)
