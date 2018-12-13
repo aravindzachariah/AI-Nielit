@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+import numpy as np
+fobj=plt.figure(figsize=(7,7),facecolor='#FFFFFF')
+spobj=fobj.add_subplot(1,1,1)
+m_xticks='Jan Feb Mar Apr May Jun Jul Aug Sept Oct Nov Dec'.split()
+l=np.arange(len(m_xticks))
+barwidth=0.3
+HighC=[32,32,33,33,32,30,30,30,30,30,31,31]
+LowC=[23,23,24,25,25,24,24,24,24,24,23,23]
+spobj.bar(l,HighC,width=barwidth,alpha=0.8,color='r',label='High C')
+spobj.bar(l+barwidth,LowC,width=barwidth,alpha=0.8,color='b',label='Low C')
+#plt.xticks(x_val,stud_name_xticks)
+spobj.set_xticks(l+barwidth)
+spobj.set_xticklabels(m_xticks)
+spobj.set_xlabel('Months')
+spobj.set_title('Temperature Chart')
+spobj.legend(loc='upper right')
+plt.show()
