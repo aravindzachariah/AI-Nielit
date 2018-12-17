@@ -1,0 +1,60 @@
+import numpy as np
+from matplotlib import pyplot as plt
+plt.pause?
+bo1=plt.bar([1,2],[1,2])
+bo1
+for i in bo1:
+    print i
+i
+i.set_height?
+import scipy as sp
+help(sp)
+a1=np.arange(1,6)
+a1
+def f1(i):
+    return 'value=%d'%(i)
+f1(10)
+f1(a1)
+vf1=sp.vectorize(f1)
+vf1(a1)
+a1=np.arange(1,5).reshape(2,2)
+a1
+a2=a1.copy()
+a1*a2
+m1=sp.matrix(a1)
+m2=sp.matrix(a2)
+a1.dot(a2)
+m1*m2
+sp.poly1d([2,3,4])
+p1=sp.poly1d([2,3,4])
+print p1
+p1.c
+p1.o
+p1.r
+p2=sp.poly1d([2,0,-4])
+p2
+print p2
+p2=sp.poly1d([1,0,-4])
+print p2
+p2.r
+p1+p1
+print p1
+print p1+p1
+import scipy.optimize as spo
+x=np.array([2,3,5,7,9])
+y=np.array([4,5,7,10,15])
+fxf=lambda m,x,c:m*x+c
+popt,pcov=spo.curve_fit(fxf,x,y)
+popt
+fxf(popt[0],10,popt[1])
+vfxf=sp.vectorize(fxf)
+cy=vfxf(popt[0],x,popt[1])
+y
+cy
+x
+%matplotlib
+plt.plot(x,y,'r:o',label='observed')
+plt.plot(x,cy,'b-v',label='calculated')
+plt.legend(loc='best')
+plt.show()
+%hist -f dec17_2018
